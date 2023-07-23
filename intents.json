@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hola me puedes ayudar?",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches"
+      ],
+      "responses": [
+        "Hola soy FoodBot, como estas en que te puedo ayudar?",
+        "Hola soy FoodBot, que tal en que te puedo ayudar?",
+        "Hola buenos dias, soy FoodBot como te puedo ayudar?",
+        "Hola buenos tardes, como soy FoodBot te puedo ayudar?",
+        "Hola buenos noches, soy FoodBot como te puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adios",
+        "Hasta luego",
+        "Hasta pronto",
+        "Nos vemos",
+        "Hasta la proxima",
+        "Chao",
+        "Chau",
+        "Que tengas un buen dia"
+      ],
+      "responses": [
+        "Adios, gracias por visitarnos",
+        "Hasta luego, gracias por visitarnos",
+        "Hasta pronto, gracias por visitarnos",
+        "Nos vemos, gracias por visitarnos",
+        "Hasta la proxima, gracias por visitarnos",
+        "Chao, gracias por visitarnos",
+        "Chau, gracias por visitarnos"
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Gracias por tu ayuda",
+        "Gracias por la informacion",
+        "Gracias por todo",
+        "Me has salvado gracias"
+      ],
+      "responses": [
+        "De nada estoy aqui para ayudarte",
+        "No hay de que, estoy aqui para ayudarte",
+        "Es un placer ayudarte cualquier consulta no dudes en preguntarme"
+      ]
+    },
+    {
+      "tag": "comida",
+      "patterns": [
+        "Combos de comida",
+        "Que comidas tienes?",
+        "Que comidas puedo pedir por delivery?",
+        "Cual es el menu especial de hoy?"
+      ],
+      "responses": [
+        "Tenemos combos de comida para todos los gustos, puedes verlos en nuestra pagina web https://boomerang-res.000webhostapp.com/",
+        "Tenemos combos de hamburguesas, pollos brosters, pollo, etc; para mas informacion visita nuestra pagina web https://boomerang-res.000webhostapp.com/",
+        "El menu especial de hoy es: Hamburguesa doble con papas fritas y gaseosa por solo 15 soles"
+      ]
+    },
+    {
+      "tag": "pago",
+      "patterns": [
+        "Como puedo pagar?",
+        "Cuales son los metodos de pago que aceptan",
+        "Como puedo pagar mi pedido?",
+        "Aceptan pago con tarjeta?",
+        "Puedo pagar con tarjeta?",
+        "Puego pagar cuando el repartidor llegue?",
+        "Puedo pagar cuando el repartidor llegue con tarjeta, paypal, yape?",
+        "Que tipo de pago aceptan?"
+      ],
+      "responses": [
+        "Aceptamos pago con yape, tarjeta de credito, efectivo, mastercard, visa",
+        "Estos son los tipos de pago que aceptamos: yape, tarjeta de credito, efectivo, mastercard, visa"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Cuanto tiempo demora el delivery?",
+        "Cuanto tiempo demora el envio?",
+        "Cuanto tiempo demora el pedido?",
+        "Cuanto tiempo demora el pedido de comida?",
+        "Cuanto tiempo demora el pedido de comida a domicilio?"
+      ],
+      "responses": [
+        "El delivery toma entre 30 a 45 minutos, si tiene problemas comunicace con nosotros al 940 166",
+        "El pedido toma entre 30 a 45 minutos",
+        "El pedido de comida toma entre 30 a 45 minutos"
+      ]
+    },
+    {
+      "tag": "Gracioso",
+      "patterns": [
+        "Dime un chiste",
+        "Cuentame un chiste",
+        "Cuentame algo gracioso",
+        "Cuentame algo divertido",
+        "Cuentame algo chistoso",
+        "Cuentame algo que me haga reir",
+        "Cuentame algo que me haga reir mucho"
+      ],
+      "responses": [
+        "No puedo contar chistes, no tengo sentido del humor",
+        "No puedo contar chistes, no tengo sentido del humor, pero puedo contar una historia",
+        "Solo puedo hacer pedidos de comida",
+        "Solo puedo hacer pedidos de comida, pero puedo contar una historia"
+      ]
+    },
+    {
+      "tag": "historia",
+      "patterns": [
+        "Cuentame una historia",
+        "Cuentame una historia graciosa",
+        "Cuentame una historia divertida",
+        "Cuentame una historia chistosa",
+        "Cuentame una historia que me haga reir",
+        "Cuentame una historia que me haga reir mucho"
+      ],
+      "responses": [
+       "Aqui tengo una historia graciosa: Había una vez un perro llamado Max que siempre se metía en problemas. Un día, mientras perseguía su cola en el jardín, Max se tropezó con una manguera y terminó empapado de pies a cabeza. ¡Parecía un perro globo! Los vecinos no podían contener la risa al ver a Max corriendo en círculos tratando de deshacerse del agua. Aunque Max estaba un poco avergonzado, pronto se dio cuenta de que su torpeza lo convertía en el perro más divertido del vecindario",
+       "Esta historia es triste: Había una vez un perro llamado Max que era el mejor amigo de un niño llamado Lucas. Pasaban todo el tiempo juntos, jugando y explorando el vecindario. Pero un día, Lucas se mudó a otro país y Max se quedó solo. El pobre perro extrañaba tanto a su amigo que pasaba los días junto a la ventana, esperando ver a Lucas volver. Aunque la tristeza invadía su corazón, Max nunca dejó de recordar los momentos felices que compartieron y siempre tuvo la esperanza de reunirse con Lucas nuevamente.",
+       "Tengo esta historia divertida: Max, el perro más travieso del vecindario, siempre encontraba la forma de meterse en problemas. Un día, decidió robar una dona de la cocina de su dueño sin que nadie lo viera. Pero cuando Max intentó esconderse debajo de la cama para disfrutar de su botín, descubrió que era demasiado grande para pasar por debajo. ¡Quedó atrapado! Max intentaba salir, pero solo conseguía hacer ruido y mover la cama de un lado a otro. Fue entonces cuando su dueño entró a la habitación y se encontró con la escena más divertida. Max, con su cola temblando de emoción y la dona pegada en su hocico, había quedado atrapado en la travesura más deliciosa."
+      ]
+    },
+    {
+      "tag":"Soporte",
+      "patterns":[
+        "Tengo problemas con mi cuenta",
+        "No puedo acceder a mi cuenta",
+        "Quiero cambiar mi contraseña",
+        "Como hago para manejear el sistema"
+      ],
+      "responses":[
+        "Puedes contactarte con el soporte tecnico al numero 906492166",
+        "Claro si quieres cambiar tu contraseña rellena el formulario de la seccion de tu perfil 'Cambiar Contreseña'",
+        "Puedes contactarte con el soporte tecnico al numero 906492166 o rellenar el formulario de la seccion de tu perfil",
+        "Puedes ver este video que te ayudara: https://www.youtube.com/watch?v=JvX2g1WbUZ4"
+      ]
+    }
+  ]
+}
